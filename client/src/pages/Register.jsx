@@ -34,7 +34,7 @@ const Register = () => {
     }
 
     // Success! Save data and move to Dashboard
-    localStorage.setItem('token', data.ten);
+    localStorage.setItem('token', data.token);
     localStorage.setItem('user', JSON.stringify(data.user));
     navigate('/dashboard');
 
